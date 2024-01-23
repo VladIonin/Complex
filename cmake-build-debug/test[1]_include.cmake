@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Lenovo/CLionProjects/ComplexNumbers/cmake-build-debug/test[1]_tests.cmake")
+  include("C:/Users/Lenovo/CLionProjects/ComplexNumbers/cmake-build-debug/test[1]_tests.cmake")
+else()
+  add_test(test_NOT_BUILT test_NOT_BUILT)
+endif()

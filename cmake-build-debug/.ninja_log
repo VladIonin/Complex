@@ -1,0 +1,20 @@
+# ninja log v5
+2	789	7276945924412238	build.ninja	8a06bf05852a02f4
+612	750	7276133300826806	ComplexNumbers.exe	71f12fbab557b8c1
+6	144	7276938566879584	src/CMakeFiles/ComplexNumbers_lib.dir/Complex.cpp.obj	30568f896e8d2ffc
+8	2906	7276940883219442	tests/CMakeFiles/ComplexNumbers_tst.dir/test.cpp.obj	a335b609bb559b0b
+145	452	7276938569965859	src/libComplexNumbers_lib.a	99671c0b7e3e3e89
+18	16468	7276938729882576	googletest-1.14.0/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	e6d4443cde448caf
+16470	20779	7276938773244636	lib/libgtest.a	c204f9ec9ba1bcf9
+10	1135	7276926274748065	src/CMakeFiles/ComplexNumbers.dir/Complex.cpp.obj	e0838c3b72298ef1
+6	971	7276928610747685	src/CMakeFiles/ComplexNumbers.dir/main.cpp.obj	fbbf8b3206d2a371
+5	1027	7276926609838080	src/CMakeFiles/ComplexNumbers.dir/tst.cpp.obj	ecd9a47f6cd1d6cd
+6	191	7276946134430256	src/libComplexNumbers_lib.a	3c334ede5e7f450f
+17	3868	7276946171257993	tests/CMakeFiles/ComplexNumbers_tst.dir/test.cpp.obj	7195507186016f72
+24	14239	7276946274671534	googletest-1.14.0/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	bf21d4a84780f0c
+14239	18490	7276946317480597	lib/libgtest.a	c204f9ec9ba1bcf9
+18491	22737	7276946359814197	tests/ComplexNumbers_tst.exe	d8614499b679d925
+7	2724	7276947437721016	tests/CMakeFiles/ComplexNumbers_tst.dir/test.cpp.obj	7195507186016f72
+2725	7059	7276947480943995	tests/ComplexNumbers_tst.exe	d8614499b679d925
+6	2705	7276947737211742	tests/CMakeFiles/ComplexNumbers_tst.dir/test.cpp.obj	7195507186016f72
+2706	6938	7276947779436597	tests/ComplexNumbers_tst.exe	d8614499b679d925
