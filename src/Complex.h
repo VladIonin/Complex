@@ -6,6 +6,7 @@
 
 template<typename T>
 class Complex {
+    static_assert(std::is_arithmetic<T>::value, "Template type T must be a numeric type");
 private:
     T real;
     T imaginary;
@@ -45,7 +46,8 @@ public:
 
     // Сравнение
     bool operator==(const Complex &other) const {
-        return real == other.real && imaginary == other.imaginary;
+        const double epsilon = 1e-8;
+        return std::abs(real - other.real) < epsilon && std::abs(imaginary - other.imaginary) < epsilon;
     }
     bool operator!=(const Complex &other) const {
         return !(*this == other);
