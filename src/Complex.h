@@ -44,13 +44,30 @@ public:
                 (imaginary * other.real - real * other.imaginary) / denominator);
     }
 
-    // Сравнение
+    // Сравнение с комплексным числом
     bool operator==(const Complex &other) const {
         const double epsilon = 1e-8;
         return std::abs(real - other.real) < epsilon && std::abs(imaginary - other.imaginary) < epsilon;
     }
     bool operator!=(const Complex &other) const {
         return !(*this == other);
+    }
+
+    // Сравнение с int
+    bool operator==(const int &value) const {
+        return imaginary == T() && real == static_cast<T>(value);
+    }
+    bool operator!=(const int &value) const {
+        return !(*this == value);
+    }
+
+    // Сравнение с float
+    bool operator==(const float &value) const {
+        const double epsilon = 1e-8;
+        return imaginary == T() && std::abs(real - static_cast<T>(value)) < epsilon;
+    }
+    bool operator!=(const float &value) const {
+        return !(*this == value);
     }
 
     // Степень и модуль

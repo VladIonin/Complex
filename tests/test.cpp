@@ -65,8 +65,10 @@ TEST(ComplexTest, IntComparison) {
     Complex<int> a(2, 3);
     Complex<int> b(2, 3);
     Complex<int> c(3, 4);
+    Complex<int> d(3, 0);
 
     EXPECT_EQ(a, b);
+    EXPECT_EQ(d, 3);
     EXPECT_NE(a, c);
 }
 
@@ -74,8 +76,10 @@ TEST(ComplexTest, FloatComparison) {
     Complex<float> a(2.0, 3.0);
     Complex<float> b(2.0, 3.0);
     Complex<float> c(3.0, 4.0);
+    Complex<float> d(3.0, 0.0);
 
     EXPECT_EQ(a, b);
+    EXPECT_EQ(d, 3);
     EXPECT_NE(a, c);
 }
 
